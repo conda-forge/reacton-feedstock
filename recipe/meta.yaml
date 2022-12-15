@@ -22,7 +22,7 @@ requirements:
   run:
     - ipywidgets
     - python >=3.6
-    - typing_extensions >= 4.1.1
+    - typing_extensions >=4.1.1
 
 test:
   imports:
