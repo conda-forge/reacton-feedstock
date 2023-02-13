@@ -1,5 +1,5 @@
 {% set name = "reacton" %}
-{% set version = "1.2.0" %}
+{% set version = "1.2.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/reacton-{{ version }}.tar.gz
-  sha256: e625b740b0a89a97b7056230b69809f6d4c424455cb7e538a1bef480d7298333
+  sha256: 8f3a2b77a37f8e7c3a8a5f464a620b3af6292ce75c2937ca63e0cc61ba119341
 
 build:
   noarch: python
